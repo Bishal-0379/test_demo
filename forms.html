@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <!-- This is a HTML form formal -->
+    <form action="backend.php">
+        <!-- <label for="name">Name</label> -->
+        <div>
+            Name: <input type="text" name="MyEame" id="name">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="MyEmail">
+        </div>
+        <br>
+        <div>
+            Date of birth: <input type="date" name="MyDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="MyBonus">
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="MyGender"> Female<input type="radio" name="MyGender">
+        </div>
+        <br>
+        <div>
+            <label for="branch">Branch</label>
+            <select name="Branch" id="branch">
+                <option value="Html">Html</option>
+                <option value="Css">CSS</option>
+                <option value="Js">Js</option>
+            </select>
+        </div>
+        <br>
+        <label for="checkbox">Are you eligible: </label>
+        <div>
+            <input type="checkbox" name="MyEligibility" id="checkbox">
+        </div>
+        <br>
+        <div>
+            Why should we hire you?: <textarea name="MyWriting" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit now">
+            <input type="reset" value="Reset now">
+        </div>
+
+    </form>
+</body>
+
+</html>
